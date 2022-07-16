@@ -1,12 +1,8 @@
-.awesome-line {
-  text-align: center;
-}
-
-.awesome-text {
+.underline-text {
   margin-top: 34px;
 }
 
-.awesome-text p {
+.underline-text p {
   text-align: center;
   font-size: 14px;
   color: rgba(134, 135, 139, 1);
