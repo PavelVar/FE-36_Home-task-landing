@@ -15,21 +15,33 @@
   padding: 80px 0 0 0;
 }
 
-.line {
-  text-align: center;
-}
-
 .container {
   max-width: 1170px;
   margin: auto;
   padding: 0 15px;
 }
 
-.title {
+.heading__title {
   font-size: 36px;
   color: #212121;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 34px;
   font-family: "Raleway", sans-serif;
+}
+
+.heading__line {
+  text-align: center;
+}
+
+.heading__underline-text {
+  margin-top: 34px;
+}
+
+.heading__underline-text p {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(134, 135, 139, 1);
+  font-family: "Open_Sans", sans-serif;
+  font-weight: 400;
 }
