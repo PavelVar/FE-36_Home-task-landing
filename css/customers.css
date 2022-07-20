@@ -1,0 +1,99 @@
+#customers-info-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 298px;
+  padding: 10px;
+}
+
+.customer-card__text {
+  background: #e2e2e2;
+  border-radius: 7px;
+  padding: 10px 20px;
+  margin-bottom: 22px;
+}
+
+.customer-card__text p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.card-signature {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 22px;
+}
+
+.customer__img {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.customer__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.signature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.job p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+  text-align: right;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+#customers-card-1-text {
+  position: relative;
+}
+
+#customers-card-1-text::after {
+  content: "";
+  position: absolute;
+  left: 41px;
+  bottom: -20px;
+  border: 10px solid transparent;
+  border-top: 10px solid #e2e2e2;
+}
+
+#customers-card-2-text {
+  position: relative;
+}
+
+#customers-card-2-text::after {
+  content: "";
+  position: absolute;
+  left: 41px;
+  bottom: -20px;
+  border: 10px solid transparent;
+  border-top: 10px solid #e2e2e2;
+}
+
+#customers-card-3-text {
+  position: relative;
+}
+
+#customers-card-3-text::after {
+  content: "";
+  position: absolute;
+  left: 41px;
+  bottom: -20px;
+  border: 10px solid transparent;
+  border-top: 10px solid #e2e2e2;
+}

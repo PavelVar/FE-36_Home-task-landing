@@ -5,9 +5,11 @@
 .info__wrap {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.card__content {
+.awesome-card {
+  width: 350px;
   padding: 20px;
 }
 
@@ -35,10 +37,6 @@
   margin-bottom: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-}
-
-.card__text {
-  width: 350px;
 }
 
 .card__text p {
