@@ -11,8 +11,8 @@
   text-decoration: none;
 }
 
-.awesome {
-  padding: 80px 0 0 0;
+.section {
+  padding: 80px 0 116px 0;
 }
 
 .container {
@@ -42,6 +42,6 @@
   text-align: center;
   font-size: 14px;
   color: rgba(134, 135, 139, 1);
-  font-family: "Open_Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
