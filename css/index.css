@@ -30,6 +30,17 @@
   font-family: "Raleway", sans-serif;
 }
 
+.heading__underline-text::before {
+  content: "";
+  width: 64px;
+  height: 1px;
+  background-image: url("../img/line.png");
+  background-repeat: no-repeat;
+  display: block;
+  margin: auto;
+  padding: 0 0 34px 0;
+}
+
 .heading__line {
   text-align: center;
 }
