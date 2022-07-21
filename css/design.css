@@ -58,6 +58,8 @@
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
   position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .design-link:hover {

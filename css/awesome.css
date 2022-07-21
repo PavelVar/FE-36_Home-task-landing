@@ -13,7 +13,7 @@
   padding: 20px;
 }
 
-.awesome-card:hover {
+.card__content:hover {
   border: 1px solid red;
   box-shadow: 5px 10px lightpink;
 }
