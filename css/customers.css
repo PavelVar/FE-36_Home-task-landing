@@ -15,6 +15,10 @@
   margin-bottom: 22px;
 }
 
+.customer-card__text:hover {
+  border-left: 6px solid blue;
+}
+
 .customer-card__text p {
   font-size: 14px;
   color: rgba(0, 0, 0, 1);
@@ -36,6 +40,12 @@
   margin: auto;
   border-radius: 50%;
   overflow: hidden;
+}
+
+.customer__img:hover {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
 }
 
 .customer__img img {
