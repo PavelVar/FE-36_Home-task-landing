@@ -11,11 +11,14 @@
 .awesome-card {
   width: 350px;
   padding: 20px;
+  transition: 0.2s;
 }
 
-.card__content:hover {
-  border: 1px solid red;
-  box-shadow: 5px 10px lightpink;
+.awesome-card:hover {
+  box-shadow: 2px 2px 2px grey, 4px 4px 2px #c76637, inset 2px 2px 2px grey,
+    inset 4px 4px 2px #c76637;
+  top: -4px;
+  left: -4px;
 }
 
 .card__img {

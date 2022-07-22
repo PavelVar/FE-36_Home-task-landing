@@ -1,5 +1,5 @@
 #design_section {
-  padding: 58px 38px 49px 38px;
+  padding: 58px 0px;
   background-image: url("../img/design_back.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -51,6 +51,7 @@
   text-align: center;
   margin: auto;
   position: relative;
+  transition: 0.3s;
 }
 
 .link {

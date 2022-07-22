@@ -1,11 +1,16 @@
 #customers-info-wrap {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#customers-heading {
+  margin: 0px 15px;
 }
 
 .card {
   width: 298px;
-  padding: 10px;
+  margin: 0px 15px;
 }
 
 .customer-card__text {
@@ -15,8 +20,12 @@
   margin-bottom: 22px;
 }
 
+.customer-card__text {
+  transition: 0.2s;
+}
+
 .customer-card__text:hover {
-  border-left: 6px solid blue;
+  transform: scale(1.02);
 }
 
 .customer-card__text p {
@@ -31,15 +40,14 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 22px;
 }
 
 .customer__img {
   width: 70px;
   height: 70px;
-  margin: auto;
   border-radius: 50%;
   overflow: hidden;
+  transition: 0.3s;
 }
 
 .customer__img:hover {
@@ -89,7 +97,7 @@
   content: "";
   position: absolute;
   left: 41px;
-  bottom: -20px;
+  top: 100%;
   border: 10px solid transparent;
   border-top: 10px solid #e2e2e2;
 }
@@ -102,7 +110,7 @@
   content: "";
   position: absolute;
   left: 41px;
-  bottom: -20px;
+  top: 100%;
   border: 10px solid transparent;
   border-top: 10px solid #e2e2e2;
 }
