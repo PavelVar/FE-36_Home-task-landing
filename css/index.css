@@ -1,5 +1,7 @@
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
+@import url("../css/customers.css");
+@import url("../css/design.css");
 
 /* @import url("../fonts/fonts.css"); */
 
@@ -12,7 +14,7 @@
 }
 
 .section {
-  padding: 80px 0 116px 0;
+  padding: 80px 0px 116px 0px;
 }
 
 .container {

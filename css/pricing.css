@@ -1,5 +1,5 @@
 #pricing-section {
-  padding: 80px 59px 0;
+  padding: 80px 0px;
   background-color: rgba(245, 245, 245, 1);
 }
 
@@ -10,10 +10,12 @@
 .price-cards__wrap {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px -15px;
 }
 
 .price-card {
-  padding: 20px;
+  margin: 0px 15px;
   width: 340px;
   text-align: center;
 }
@@ -56,4 +58,13 @@
   font-weight: 400;
   margin-bottom: 4px;
   line-height: 40px;
+}
+
+li {
+  transition: 0.3s;
+}
+
+li:hover {
+  color: #ffe;
+  background-color: #5488af;
 }

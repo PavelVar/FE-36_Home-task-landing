@@ -5,10 +5,20 @@
 .info__wrap {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.card__content {
+.awesome-card {
+  width: 350px;
   padding: 20px;
+  transition: 0.2s;
+}
+
+.awesome-card:hover {
+  box-shadow: 2px 2px 2px grey, 4px 4px 2px #c76637, inset 2px 2px 2px grey,
+    inset 4px 4px 2px #c76637;
+  top: -4px;
+  left: -4px;
 }
 
 .card__img {
@@ -35,10 +45,6 @@
   margin-bottom: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-}
-
-.card__text {
-  width: 350px;
 }
 
 .card__text p {
