@@ -1,0 +1,36 @@
+footer {
+  background-color: rgba(0, 0, 0, 1);
+  padding: 30px 0px 15px 0px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.footer-icons a i {
+  color: rgba(134, 135, 139, 1);
+  font-size: 23px;
+  margin-right: 42px;
+  transition: 0.2s;
+}
+
+.footer-icons a i:hover {
+  transform: scale(1.1);
+  color: cornflowerblue;
+}
+
+.fa-copyright {
+  font-size: 12px;
+}
+
+.footer-text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(134, 135, 139, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
