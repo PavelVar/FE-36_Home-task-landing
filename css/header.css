@@ -31,9 +31,33 @@
   font-family: "Open Sans", "Raleway", sans-serif;
   color: rgba(255, 255, 255, 0.7);
   transition: 0.3s;
+  /* border-bottom: 3px solid transparent; */
+  padding-bottom: 4px;
+  text-decoration: none;
+  background: no-repeat 0 100%;
+  background-image: linear-gradient(to right, white, rgba(236, 121, 121, 1));
+  background-size: 0% 2px;
 }
 
 .navigation a:hover {
   color: aliceblue;
-  border-bottom: 2px solid salmon;
+  /* border-bottom: 3px solid transparent;
+  border-image: linear-gradient(0.25turn, white, rgba(236, 121, 121, 1));
+  border-image-slice: 1; */
+  background-size: 100% 2px;
 }
+
+/* .navigation a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  width: 0;
+  background: linear-gradient(to right, white, salmon 100%);
+  transition: 0.5s;
+}
+.navigation a:hover::after {
+  width: 100%;
+  left: 0;
+} */
