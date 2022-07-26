@@ -103,11 +103,11 @@
 .aside {
   position: relative;
   z-index: 5;
-  margin: 0px 15px;
+  /* margin: 0px 15px 44px 15px; */
   text-align: center;
   background-color: rgba(255, 255, 255, 1);
-  max-width: 370px;
-  height: 370px;
+  width: 370px;
+  /* height: 370px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -116,7 +116,7 @@
 }
 
 .aside-name {
-  margin: 15px 15px;
+  margin: 15px 15px 44px 15px;
   font-family: "Open Sans";
   font-weight: 700;
   font-size: 20px;
@@ -154,8 +154,12 @@
   align-items: center;
 }
 
+#password-input {
+  margin-bottom: 61px;
+}
+
 .input-item {
-  max-width: 252px;
+  width: 252px;
   border-bottom: 1px solid rgba(189, 189, 189, 1);
   border-top: none;
   border-left: none;
@@ -163,4 +167,7 @@
   line-height: 50px;
   margin: auto;
   color: rgba(189, 189, 189, 1);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
 }
