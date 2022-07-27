@@ -18,12 +18,14 @@
   margin-bottom: 14px;
 }
 
+.text {
+  max-width: 365px;
+}
 .text p {
   color: rgba(134, 135, 139, 1);
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
-  max-width: 365px;
 }
 
 .icons a i {

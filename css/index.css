@@ -7,6 +7,7 @@
 @import url("../css/cdn.css");
 @import url("../css/footer.css");
 @import url("../css/header.css");
+@import url("../css/contact.css");
 
 /* @import url("../fonts/fonts.css"); */
 
@@ -62,4 +63,15 @@
   color: rgba(134, 135, 139, 1);
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+}
+
+.input-item {
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: rgba(189, 189, 189, 1);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
 }

@@ -99,37 +99,60 @@
   color: #ffe;
 }
 
-.aside {
+.form {
   position: relative;
   z-index: 5;
-  /* margin: 0px 15px 44px 15px; */
-  text-align: center;
+  display: inline;
   background-color: rgba(255, 255, 255, 1);
+}
+
+#form-axit-main {
   width: 370px;
-  /* height: 370px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
   border-radius: 8px;
 }
 
-.aside-name {
-  margin: 15px 15px 44px 15px;
+.form-body {
+  padding: 15px 59px 61px 59px;
+  /* line-height: 56px; */
+  text-align: center;
+}
+
+.form-title {
   font-family: "Open Sans";
   font-weight: 700;
   font-size: 20px;
   text-transform: capitalize;
   color: rgba(51, 51, 51, 1);
   line-height: 27px;
+  margin-bottom: 44px;
 }
 
-#input-card-title {
+#form-title-span {
   color: rgba(236, 121, 121, 1);
   text-transform: uppercase;
 }
 
-.aside-bottom {
+.input-item {
+  width: 100%;
+}
+
+.input-label {
+  color: rgba(189, 189, 189, 1);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  display: block;
+  margin-top: 16px;
+  text-align: left;
+}
+
+.input-label:first-child {
+  margin-top: 0px;
+}
+
+#axit-button {
+  width: 100%;
   background-color: rgba(236, 121, 121, 1);
   color: rgba(255, 255, 255, 1);
   font-family: "Open Sans";
@@ -138,35 +161,11 @@
   line-height: 54px;
   transition: 0.4s;
   border-radius: 0px 0px 8px 8px;
+  border: none;
 }
 
-.aside-bottom:hover {
+#axit-button:hover {
   transform: scale(1.15);
   border-radius: 8px;
   font-size: larger;
-}
-
-#input-list-axit {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#password-input {
-  margin-bottom: 61px;
-}
-
-.input-item {
-  width: 252px;
-  border-bottom: 1px solid rgba(189, 189, 189, 1);
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  line-height: 50px;
-  margin: auto;
-  color: rgba(189, 189, 189, 1);
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-size: 14px;
 }
