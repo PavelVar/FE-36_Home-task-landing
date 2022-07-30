@@ -20,6 +20,7 @@
 
 .text {
   max-width: 365px;
+  margin: 0px 15px;
 }
 .text p {
   color: rgba(134, 135, 139, 1);
@@ -32,10 +33,14 @@
   color: rgba(134, 135, 139, 1);
   font-size: 42px;
   margin-right: 42px;
-  transition: 0.2s;
+  transition: 0.5s;
+}
+
+#lst-ch {
+  margin-right: 0px;
 }
 
 .icons a i:hover {
-  transform: scale(1.1) rotate(20deg);
+  transform: scale(1.1) rotate(360deg);
   color: cornflowerblue;
 }

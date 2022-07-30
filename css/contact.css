@@ -50,19 +50,7 @@
 }
 
 #contact-button {
-  background-color: rgba(236, 121, 121, 1);
-  color: rgba(255, 255, 255, 1);
-  font-family: "Open Sans";
-  font-weight: 600;
-  font-size: 15px;
-  transition: 0.4s;
   border: none;
   line-height: 42px;
   width: 166px;
-}
-
-#contact-button:hover {
-  transform: scale(1.15);
-  border-radius: 8px;
-  font-size: larger;
 }

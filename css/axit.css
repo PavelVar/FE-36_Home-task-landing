@@ -153,19 +153,11 @@
 
 #axit-button {
   width: 100%;
-  background-color: rgba(236, 121, 121, 1);
-  color: rgba(255, 255, 255, 1);
-  font-family: "Open Sans";
-  font-weight: 600;
-  font-size: 15px;
   line-height: 54px;
-  transition: 0.4s;
   border-radius: 0px 0px 8px 8px;
   border: none;
 }
 
 #axit-button:hover {
-  transform: scale(1.15);
   border-radius: 8px;
-  font-size: larger;
 }
