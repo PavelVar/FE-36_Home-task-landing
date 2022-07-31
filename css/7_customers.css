@@ -29,7 +29,7 @@
 }
 
 .customer-card__text p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: rgba(0, 0, 0, 1);
   text-align: center;
   font-family: "Open Sans", sans-serif;
@@ -69,7 +69,7 @@
 }
 
 .job p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: rgba(0, 0, 0, 1);
   text-align: right;
   font-family: "Open Sans", sans-serif;

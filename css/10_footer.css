@@ -11,7 +11,7 @@ footer {
 
 .footer-icons a i {
   color: rgba(134, 135, 139, 1);
-  font-size: 23px;
+  font-size: 1.4375rem;
   margin-right: 42px;
   transition: 0.2s;
 }
@@ -22,13 +22,13 @@ footer {
 }
 
 .fa-copyright {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .footer-text {
   font-family: "Open Sans";
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.75rem;
   color: rgba(134, 135, 139, 1);
   display: flex;
   align-items: center;
