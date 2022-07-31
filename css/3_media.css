@@ -31,8 +31,8 @@
 
 .icons a i {
   color: rgba(134, 135, 139, 1);
-  font-size: 42px;
-  margin-right: 2.625rem;
+  font-size: 2.625rem;
+  margin-right: 2rem;
   transition: 0.5s;
 }
 
@@ -43,4 +43,19 @@
 .icons a i:hover {
   transform: scale(1.1) rotate(360deg);
   color: cornflowerblue;
+}
+
+@media (max-width: 768px) {
+  .text {
+    width: 45%;
+    margin: 0px 5px;
+  }
+  .icons {
+    width: 50%;
+    margin: 0px 5px;
+  }
+  .icons a i {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
 }

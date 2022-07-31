@@ -36,7 +36,7 @@
   font-family: "Open Sans";
   font-size: 15px;
   font-weight: 700;
-  z-index: 2;
+  z-index: 15;
 }
 
 .tab:first-child {
@@ -46,10 +46,6 @@
 .tab:hover {
   background-color: rgba(236, 121, 121, 1);
   transform: scale(1.05);
-  /* box-shadow: 0px 1px 2px 0px rgba(236, 121, 121, 1),
-    1px 2px 4px 0px rgba(236, 121, 121, 1),
-    2px 4px 8px 0px rgba(236, 121, 121, 1),
-    2px 4px 16px 0px rgba(236, 121, 121, 1); */
   filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.5));
   cursor: pointer;
 }
@@ -138,4 +134,10 @@
 
 .tabs-text-wrap:target {
   display: flex;
+}
+
+@media (max-width: 768px) {
+  .picture {
+    display: none;
+  }
 }

@@ -58,3 +58,17 @@
 span {
   text-transform: lowercase;
 }
+
+@media (max-width: 1024px) {
+  .awesome-card {
+    width: 280px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .awesome-card {
+    width: 210px;
+    padding: 5px;
+  }
+}

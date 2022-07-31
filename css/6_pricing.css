@@ -27,7 +27,7 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   margin-bottom: 2px;
-  line-height: 50px;
+  line-height: 2.5em;
 }
 
 .pricing-card-price {
@@ -37,7 +37,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   margin-bottom: 2px;
-  line-height: 100px;
+  line-height: 6.25rem;
 }
 
 .pricing-card-head-bottom {
@@ -47,7 +47,7 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   margin-bottom: 4px;
-  line-height: 50px;
+  line-height: 3.125rem;
 }
 
 .pricing-card-body {
@@ -67,4 +67,44 @@ li {
 li:hover {
   color: #ffe;
   background-color: #5488af;
+}
+
+@media (max-width: 1024px) {
+  .price-card {
+    margin: 0px 10px;
+    width: 280px;
+    text-align: center;
+  }
+  .pricing-card-head {
+    line-height: 30px;
+  }
+  .pricing-card-body {
+    line-height: 25px;
+  }
+  .pricing-card-price {
+    line-height: 70px;
+  }
+  .pricing-card-head-bottom {
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .price-card {
+    margin: 0px 10px;
+    width: 200px;
+    text-align: center;
+  }
+  .pricing-card-head {
+    line-height: 30px;
+  }
+  .pricing-card-body {
+    line-height: 25px;
+  }
+  .pricing-card-price {
+    line-height: 70px;
+  }
+  .pricing-card-head-bottom {
+    line-height: 30px;
+  }
 }

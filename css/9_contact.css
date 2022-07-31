@@ -16,7 +16,7 @@
 .form-left {
   display: flex;
   flex-direction: column;
-  width: 478px;
+  width: 40%;
 }
 
 .input-item.contact {
@@ -31,11 +31,11 @@
 .text-area {
   display: flex;
   flex-direction: column;
+  width: 40%;
 }
 
 #contact-page-textarea {
   height: 100%;
-  width: 478px;
   border-bottom: 1px solid rgba(189, 189, 189, 1);
   border-top: none;
   border-left: none;
@@ -53,4 +53,11 @@
   border: none;
   line-height: 42px;
   width: 166px;
+}
+
+@media (max-width: 1024px) {
+  .input-item.contact {
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
 }

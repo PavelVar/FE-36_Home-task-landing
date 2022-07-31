@@ -114,3 +114,19 @@
   border: 10px solid transparent;
   border-top: 10px solid #e2e2e2;
 }
+
+@media (max-width: 1024px) {
+  #customers-card-chef {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #customers-card-chef {
+    display: none;
+  }
+  .card {
+    width: 220px;
+    margin: 0px 10px;
+  }
+}

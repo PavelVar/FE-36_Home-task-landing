@@ -161,3 +161,51 @@
 #axit-button:hover {
   border-radius: 8px;
 }
+
+@media (max-width: 1024px) {
+  #form-axit-main {
+    width: 330px;
+  }
+  .form-body {
+    padding: 15px 45px 50px 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  #axit-section {
+    padding: 30px 0px 30px 0px;
+  }
+
+  .page {
+    flex-direction: column;
+  }
+
+  .left {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #axit-main-head {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .heading-text {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .heading-text::before {
+    display: none;
+  }
+  #form-axit-main {
+    width: 280px;
+  }
+  .form-body {
+    padding: 10px 25px 20px 25px;
+  }
+  .form {
+    margin: auto;
+  }
+  .form-title {
+    margin-bottom: 20px;
+  }
+}
