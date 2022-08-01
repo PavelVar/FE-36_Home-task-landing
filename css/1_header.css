@@ -21,11 +21,19 @@
   text-transform: uppercase;
 }
 
+#axit-header-logo:hover {
+  box-shadow: 0 0 55px rgba(236, 121, 121, 1);
+}
+
 #axit-header-span-logo {
   font-family: "Roboto", "Raleway", sans-serif;
   font-weight: 400;
   color: rgba(236, 121, 121, 1);
   text-transform: uppercase;
+}
+
+.navigation:hover {
+  box-shadow: 0 0 55px rgba(236, 121, 121, 1);
 }
 
 .navigation a {

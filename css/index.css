@@ -93,6 +93,7 @@ html {
   transform: scale(1.15);
   /* font-size: larger; */
   border-radius: 8px;
+  box-shadow: 0 0 55px rgba(236, 121, 121, 1);
 }
 
 .input-label {
