@@ -33,16 +33,21 @@
   color: rgba(134, 135, 139, 1);
   font-size: 2.625rem;
   margin-right: 2rem;
-  transition: 0.5s;
+  transition: 0.6s;
 }
 
 #lst-ch {
   margin-right: 0px;
 }
 
-.icons a i:hover {
+.icons a:nth-child(even) :hover {
   transform: scale(1.1) rotate(360deg);
   color: cornflowerblue;
+}
+
+.icons a:nth-child(odd) :hover {
+  transform: scale(1.1) rotate(-360deg);
+  color: rgba(236, 121, 121, 1);
 }
 
 @media (max-width: 768px) {
