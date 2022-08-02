@@ -154,31 +154,6 @@
   box-shadow: 27px -27px white;
 }
 
-/* .axit-link {
-  color: rgba(255, 255, 255, 1);
-  font-size: 0.9375rem;
-  font-family: "Open Sans", sans-serif;
-  position: relative;
-  z-index: 10;
-}
-
-.axit-link-name {
-  width: 135px;
-  color: rgba(255, 255, 255, 1);
-  border: 1px solid rgba(255, 255, 255, 1);
-  line-height: 42px;
-  font-size: 0.9375rem;
-  text-align: center;
-  position: relative;
-  transition: 0.3s;
-  letter-spacing: 0.1em;
-} */
-
-/* .axit-link-name:hover {
-  background: var(--clr);
-  letter-spacing: 0.25em;
-} */
-
 .form {
   position: relative;
   z-index: 5;
@@ -193,7 +168,6 @@
 
 .form-body {
   padding: 15px 59px 61px 59px;
-  /* line-height: 56px; */
   text-align: center;
 }
 
