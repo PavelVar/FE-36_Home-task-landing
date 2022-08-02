@@ -43,13 +43,13 @@
 .icons a:nth-child(even) :hover {
   transform: scale(1.1) rotate(360deg);
   color: cornflowerblue;
-  text-shadow: 2px 2px 8px #0000ff;
+  text-shadow: 20px 5px 5px cornflowerblue;
 }
 
 .icons a:nth-child(odd) :hover {
   transform: scale(1.1) rotate(-360deg);
   color: rgba(236, 121, 121, 1);
-  text-shadow: 2px 2px 8px #ff0000;
+  text-shadow: 20px 5px 5px rgba(236, 121, 121, 1);
 }
 
 @media (max-width: 768px) {
